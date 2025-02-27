@@ -52,11 +52,10 @@ button{
 /* Hero Container */
 .herocon{
     background-color: #1f2937;
-    color: white;
     display: flex;
-    align-content: center;
+    align-items: center;
     justify-content: center;
-    padding:16px;
+    height: 450px;
 }
 .big{
     font-size: 48px;
@@ -75,21 +74,16 @@ button.hsu{
     color: white;
 }
 .hero{
-    padding:100px 32px 100px 0px;
-    flex: 1 1 0;
-    width: 0;
-    margin-bottom: 16px;
-    margin-left:90px;
+  width: 450px;
+
 }
 .iph{
-    flex: 1 1 0;
-    width: 0;
     display: flex;
-    text-align: center;
     justify-content: center;
     align-items: center;
     background-color: grey;
-    margin: 100px 100px 100px 0px;
+    width: 450px;
+    height: 250px;
 }
  /* Content Container*/
  .concon{
@@ -109,14 +103,16 @@ button.hsu{
 
 
 }
- img{
-    width: 100px;
-    height: 100px;
-    border: 1px solid #3882f6;
+ .img{
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882f6;
+
  }
  .text{
     text-align: center;
     line-height: 1.5;
+    font-size: 18px;
  }
  /* quote container*/
  .qcon{
