@@ -2,3 +2,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    height: 100vh;
+    overflow:hidden;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
