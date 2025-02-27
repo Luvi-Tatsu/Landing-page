@@ -45,6 +45,13 @@ button{
     border-radius: 8px;
     font-weight: 900;
 }
+.tone{
+    text-align: center;
+    font-weight: 900;
+    font-size: 36px;
+    color: #1f2937;
+    margin: 30px;
+}
 /* Hero Container */
 .herocon{
     background-color: #1f2937;
@@ -87,3 +94,27 @@ button.hsu{
     background-color: grey;
     margin: 100px 100px 100px 0px;
 }
+ /* Content Container*/
+ .concon{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ } 
+ .items{
+    display: flex;
+    align-items: center;
+    gap: 52px;
+ }
+.content{
+    max-width: 200px;
+    
+}
+ img{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #3882f6;
+ }
+ .text{
+    text-align: center;
+    line-height: 1.5;
+ }
